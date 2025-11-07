@@ -8,6 +8,8 @@
 *.synctex.gz
 *.tex
 *fdb_latexmk
+*.bcf
+*.run.xml
 figures/
 
 # Environment files
