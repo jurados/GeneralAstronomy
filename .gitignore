@@ -10,7 +10,7 @@
 *fdb_latexmk
 *.bcf
 *.run.xml
-figures/
+figures/images/
 
 # Environment files
 GeneralAstronomy/
