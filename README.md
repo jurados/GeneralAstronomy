@@ -22,7 +22,7 @@ El volumen de datos generado por surveys como el Zwicky Transient Facility (ZTF)
 - Discutir las fuentes de error en la estimación de $H_0$.
 
 ## Datos
-En este ejercicio usaremos datos públicos de ALeRCE, específicamente una muestra de supernovas Tipo Ia con curvas de luz en los filtros $g$ y $r$, junto con sus redshifts y distancias estimadas a partir de la luz de la galaxia anfitriona.
+En este ejercicio se uso datos públicos del telescopio ZTF usando el broker ALeRCE para extraer los datos. Específicamente una muestra de supernovas Tipo Ia con curvas de luz en los filtros $g$ y $r$, junto con sus redshifts y distancias estimadas a partir de la luz de la galaxia anfitriona.
 
 El subconjunto de datos que fue usado en este ejercicio puede ser visto aquí:
 
