@@ -1,4 +1,4 @@
-# Cosmólogos por un Día. Determinando el valor de $H_0$ usando Supernovas tipo Ia
+# Cosmólogos por un día. Determinando el valor de $H_0$ usando Supernovas tipo Ia
 
 > La actividad puede ser encontrarse a continuación: [Actividad.pdf](main.pdf) 
 
@@ -11,15 +11,15 @@ Al obtener el punto máximo de brillo en la curva de luz de una supernova Tipo I
 El volumen de datos generado por surveys como el Zwicky Transient Facility (ZTF) y el futuro Vera C. Rubin Observatory (LSST) hace indispensable el uso de técnicas de Machine Learning para la clasificación. Para esto fue creado ALeRCE (Automatic Learning for the Rapid Classification of Events, [Förster et al. 2021](https://ui.adsabs.harvard.edu/abs/2021AJ....161..242F/abstract)), un broker astronómico chileno.
 
 ## Objetivos
-- Familiarizarse con la herramienta Explorer de ALeRCE para analizar curvas de luz de supernovas obtenidas por el ZTF.
+- Familiarizarse con la herramienta Explorer de ALeRCE para la selección y el análisis de curvas de luz de supernovas tipo Ia obtenidas por el ZTF.
 
-- Identificar curvas de luz de supernovas tipo Ia.
+- Determinar el brillo máximo aparente ($m_{max}$) y el redshift ($z$) de una muestra de supernovas como parámetros de entrada para la medición de distancia.
 
-- Extraer el máximo de brillo aparante ($m$) de las curvas de luz y el redshift de la galaxia anfitriona.
+- Aplicar el módulo de distancia para calcular la distancia de luminosidad ($d_L$) de cada su pernova, utilizando las SNIa como candelas estándar con una magnitud absoluta conocida($M$).
 
-- Realizar el cálculo de la constante de Hubble $H_0$ usando la relación de distancia-luminosidad usando la regrsión lineal entre la distancia y el redshift.
+- Realizar una regresión lineal entre la velocidad de recesión ($v$) y la distancia de luminosidad ($d_L$) para estimar el valor de la Constante de Hubble ($H_0$) y su incertidumbre.
 
-- Discutir las fuentes de error en la estimación de $H_0$.
+- Comparar el método y los resultados obtenidos con el trabajo original de Hubble (1929) para entender la evolución de las escalas de distancia cosmológica.
 
 ## Datos
 En este ejercicio se uso datos públicos del telescopio ZTF usando el broker ALeRCE para extraer los datos. Específicamente una muestra de supernovas Tipo Ia con curvas de luz en los filtros $g$ y $r$, junto con sus redshifts y distancias estimadas a partir de la luz de la galaxia anfitriona.
@@ -37,7 +37,7 @@ Se obtuvo el valor de la constante de Hubble usando los datos de supernovas Tipo
 |   r    | 56.31            | 4.9   | 23%   |
 
 Usando como referencia el valor de $H_o = 73.04 \pm 1.04 \, \text{km s}^{−1}\text{Mpc}^{−1}$
-(Refencia), se observa que los valores obtenidos están por debajo del valor aceptado, aunque dentro de un rango razonable considerando las fuentes de error involucradas en el análisis.
+[Riess2008](https://arxiv.org/abs/2112.04510), se observa que los valores obtenidos están por debajo del valor aceptado, aunque dentro de un rango razonable considerando las fuentes de error involucradas en el análisis.
 
 El gráfico de dispersión de velocidad vs distancia para ambos filtros se muestra a continuación:
 
