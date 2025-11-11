@@ -1,6 +1,6 @@
 # Cosmólogos por un día. Determinando el valor de $H_0$ usando Supernovas tipo Ia
 
-> La actividad puede ser encontrarse a continuación: [Actividad.pdf](main.pdf) 
+> La actividad puede ser encontrarse a continuación: [Actividad.pdf](actividad.pdf) 
 
 Las supernovas (SNs) son explosiones energéticas de estrellas en las últimas etapas de su vida. Se clasifican en dos tipos generales: las de colapso de núcleo (producidas por estrellas de alta masa) y las de colapso termonuclear o Tipo Ia.
 
